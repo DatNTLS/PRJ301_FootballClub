@@ -22,6 +22,7 @@ public class Email {
     public static void main(String[] args) {
         Email em = new Email();
         System.out.println(em.getRandom(6));
+        em.sendConfirmAccount("123456", "datagame21stcentury@gmail.com");
     }
     
     public String getRandomNumber() {
